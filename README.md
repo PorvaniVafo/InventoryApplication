@@ -22,22 +22,7 @@ The Inventory Application is designed to manage products and users within an inv
 ```bash
 git clone <repository_url>
 cd InventoryApplication
-2. Install Java 17
-Make sure Java 17 is installed on your machine. You can download it from Oracle.
 
-Check the installed version:
-
-bash
-Копировать код
-java -version
-3. Set Up Maven
-Make sure you have Maven installed. You can download it from Maven Download.
-
-Check Maven installation:
-
-bash
-Копировать код
-mvn -v
 4. Configure Database
 This project uses an in-memory H2 database, so no further configuration is needed.
 
