@@ -20,7 +20,7 @@ The Inventory Application is designed to manage products and users within an inv
 
 ### 1. Clone the repository
 git clone https://github.com/PorvaniVafo/InventoryApplication.git
-cd blissmap
+cd InventoryApplication
 
 4. Configure Database
 This project uses an in-memory H2 database, so no further configuration is needed.
