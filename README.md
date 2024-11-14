@@ -22,17 +22,23 @@ The Inventory Application is designed to manage products and users within an inv
 git clone https://github.com/PorvaniVafo/InventoryApplication.git
 cd InventoryApplication
 
-4. Configure Database
-This project uses an in-memory H2 database, so no further configuration is needed.
+### 2.Configure H2 Database (Optional for production use)
+For development purposes, the app uses an in-memory H2 database. You can configure the connection URL and other details in application.properties.
+
+# application.properties
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=password
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.jpa.hibernate.ddl-auto=update
+
+### 3. Run the Application
+After all dependencies are installed, navigate to the project folder and run the application using Maven.
 
 If you need to use a different database, update the application.properties file in the src/main/resources directory with the necessary configuration.
 
-5. Build and Run the Application
-To build and run the application, execute the following command:
+### 4. Build and Run the Application
 
-bash
-Копировать код
-mvn spring-boot:run
-The application will start at http://localhost:8080.
-
-6. Testing the API with Postman
+### 5. Testing the API with Postman
+The application will start at http://localhost:8080/api/...
