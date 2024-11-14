@@ -1,6 +1,6 @@
 # Inventory Application
 
-##Presentation 
+## Presentation 
 https://docs.google.com/presentation/d/1NMS0GVS8ZjrWyQWM49Vs3O772zqeJU2dl4wY4ToxlJI/edit?usp=sharing
 
 ## Overview
