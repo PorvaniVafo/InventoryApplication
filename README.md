@@ -20,7 +20,7 @@ The Inventory Application is designed to manage products and users within an inv
 
 ### 1. Clone the repository
 ```bash
-git clone <repository_url>
+git clone <https://github.com/PorvaniVafo/InventoryApplication>
 cd InventoryApplication
 
 4. Configure Database
