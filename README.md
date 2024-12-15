@@ -1,5 +1,8 @@
 # Inventory Application
 
+## Presentation 
+https://docs.google.com/presentation/d/1NMS0GVS8ZjrWyQWM49Vs3O772zqeJU2dl4wY4ToxlJI/edit?usp=sharing
+
 ## Overview
 The Inventory Application is designed to manage products and users within an inventory system. This backend application is built using Java 17, Spring Boot, Hibernate, and an H2 database, with endpoints for managing product details, user information, and their relationships.
 
